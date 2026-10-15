@@ -1,3 +1,7 @@
+# HISTORY UPDATE — Philippine History + World History
+
+This release adds 24 Full / 8 Trial history lessons inside Secondary. Existing Primary and Secondary codes are unchanged. See **HISTORY-UPDATE.md** for coverage and classroom use. Publish only this site folder, not the private Owner Kit.
+
 # Wonder Global Studio
 ## Primary + Secondary • Trial first • Separate Full access codes
 
