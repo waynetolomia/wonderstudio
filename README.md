@@ -1,90 +1,104 @@
-# HISTORY UPDATE — Philippine History + World History
+# Wonder Global Studio — Secondary navigation update
 
-This release adds 24 Full / 8 Trial history lessons inside Secondary. Existing Primary and Secondary codes are unchanged. See **HISTORY-UPDATE.md** for coverage and classroom use. Publish only this site folder, not the private Owner Kit.
+## Start here
 
-# Wonder Global Studio
-## Primary + Secondary • Trial first • Separate Full access codes
+Open the combined platform, choose **Secondary**, and follow:
 
-**Created by: Dr. Wayne Vincent Tolomia**  
-**Contact: waynetolomia@gmail.com**  
-For educational purposes only. Do not resell this web app or any modified version.
+**Subject → Year level → Topic → Activity**
 
-## Publish this package
+Both Teacher Trial and Secondary Full use this layout. The Primary workspace and the existing Primary/Secondary access codes are unchanged.
 
-The entire platform, its two trials, and its separately encrypted Full packages are inside **index.html**. There is no build step, server-side code, account system or database to install for the public website.
+## 1. Choose a subject
 
-1. Extract this GitHub upload ZIP on your computer.
-2. Create a repository or use a suitable existing repository. Upload **index.html** to its root. Also include **.nojekyll**; the other files in this upload package are safe to publish but optional at runtime.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**, choose **main**, choose **/(root)**, then **Save**.
-5. Wait for the Pages deployment and open the website address shown in Pages settings. Keep **Enforce HTTPS** enabled.
-6. Open a private browser window to confirm that a new visitor sees **Trial** for both Primary and Secondary. Use the owner’s separate private code sheet to test each Full edition.
+The Secondary homepage displays **11 subject cards**, not a combined list of lessons:
 
-Do not upload just the ZIP and expect it to run: upload the extracted HTML file. GitHub Pages serves index.html as the page.
+English; Biology; Chemistry; Physics; Environmental Science; Algebra; Geometry; Trigonometry; Statistics; Philippine History; World History.
 
-**Never put the private code sheet, owner ZIP, owner inputs, codes.json, old Complete HTML files or old Complete ZIPs in the public repository.** Those files are intentionally not included here. A .gitignore is a convenience, not protection against manual uploads or existing Git history. A clean repository containing only this release’s public package avoids exposing older unencrypted editions.
+Use the **Language**, **Sciences**, **Mathematics**, or **History** filter to narrow the subject cards. **Search subjects** searches names and subject descriptors, not the entire lesson bank.
 
-GitHub Pages is a static-hosting service. It has restrictions on sites primarily facilitating commercial transactions or commercial SaaS. Review those terms before using the platform as a paid service. The same index.html can be hosted on another HTTPS static host.
+The **History tracks** navigation shortcut shows just Philippine History and World History. It no longer lists both tracks’ lessons together.
 
-## Teacher experience
+## 2. Choose the year
 
-On a new browser, both levels start in Trial. Teachers can explore without entering any code or creating an account.
+Opening a subject first shows four year cards: **Secondary 1, 2, 3, and 4**. No topics are displayed until a year is chosen. Topic counts reflect the content included in the current edition.
 
-**Primary Full** and **Secondary Full** use independent access codes. A Primary code cannot decrypt Secondary; a Secondary code cannot decrypt Primary. Teachers can activate one level or both.
+After choosing a year, the year buttons remain available. Changing the subject returns to that subject’s year selector and clears the previous topic search and region filter.
 
-Select **Full-version codes → Enter Primary code / Enter Secondary code**, paste the complete code from the author, and select **Unlock**. The default **Remember Full access on this browser** option stores the actual code in that browser’s localStorage. Returning to the same site revalidates the saved code by decrypting the relevant Full package. Changing an “unlocked” flag does not expose Full content.
+## 3. Choose a topic
 
-Uncheck Remember on shared devices to use Full for the current open page only. **Manage access → Forget [level] code** removes only that level’s remembered access on this browser. It does not erase the teaching workspace or affect another person’s device.
+Only topics in the selected **subject and year** appear. Search and region filters apply inside that selection; an empty result does not widen the search to unrelated subjects.
 
-An activated teacher can use **Preview trial** and **Return to Full** without deleting or re-entering a remembered code. The other level stays in its own Trial/Full state.
+Paired worldwide settings of the same built-in topic share a topic card. For example, the two original location variants of a Biology topic are not displayed as duplicate topic cards. Use **Choose a context** on the activity page to switch between them. The original lesson records and their questions remain intact.
 
-## Browser storage and privacy
+History lessons stay separate, and teacher-created copies are always separate topic cards. Topic grouping does not merge or rewrite learning content.
 
-Remembered codes are local to the browser profile and website origin. The platform uses an additional installation-path namespace and a separate access record for each level. This namespace is organisation, not isolation from other scripts on the same origin.
+## 4. Choose an activity
 
-Clearing site data, changing browsers or devices, private-browsing lifecycle rules, storage restrictions, moving the site, or changing its hostname can mean the teacher must enter the code again. No account sync is provided.
+Opening a topic leads to three tabs:
 
-**The saved code is readable in localStorage.** People using that browser profile, extensions with appropriate access, and other scripts on the same origin may be able to read it. Do not use a personal password as an access code. Do not ask teachers for email, GitHub or banking passwords. No activation code is sent to an activation server by this platform.
+- **Choose activity** — select an available activity format, then use its named Start button or add it to the lesson queue.
+- **Lesson overview** — read the original scenario or historical overview, objective, discussion prompt, and, for History, the milestone guide.
+- **Sources & notes** — open the retained references and review the content’s provenance.
 
-The existing apps retain their optional external resource links and hand-tracking downloads. Using the contact link opens an email draft; it does not send an email automatically. The website does not gain a student-account or payment system from this update.
+Filter activity cards by **Practice**, **Study & discuss**, **History skills**, or **Movement** where those categories are available. Only formats allowed for the selected lesson and edition are shown. Existing sensitive-history restrictions still apply.
 
-## Teaching workspaces
+A small-screen Start bar keeps the selected activity’s start control accessible while scrolling. The original full start panel and lesson-queue button remain available as well.
 
-The latest supplied Global editions are embedded as trusted learning workspaces inside one level-switching platform. Their subject banks, world-context lessons, games, tools and author notices are retained.
+## Back buttons and tools
 
-Primary and Secondary keep separate lesson data. Trial and Full data are also separate; activating Full does not merge trial results or queues. Neither is deleted. Switching levels asks before abandoning an unfinished activity. Completed records and saved settings are retained when the browser permits storage.
+The breadcrumb trail and the **Back to [subject] · Secondary [year]** button return to the selected topic list without losing its search or region filter. Returning from a game goes back to that game’s topic.
 
-**Edit this homepage** changes the shared welcome page locally. **Export saved homepage** produces another code-protected copy of the platform. It includes the saved welcome-page settings and the encrypted packages, but never saved access codes, activation status or learning history. Save changes before exporting.
+Same-document browser Back and Forward also restore navigation state when the embedding browser permits history updates. The visible breadcrumb and Back controls remain the dependable alternative in restricted embeds. Leaving an unfinished activity through browser Back asks for confirmation.
 
-Existing Full workspace export buttons can produce **unlocked Full documents**. Those exports are intended for authorised teachers and must be kept private. The outer platform’s encryption does not turn exported Full files into code-gated documents.
+**Models & tools** is now organised by subject. Tools shared across subjects remain under **Shared classroom tools**. Subject-model links are also available from relevant topic pages. Model controls, explanations, assumptions, and observation recording are unchanged; models are not assigned artificial year-level requirements.
 
-## Browser and classroom setup
+## What is preserved
 
-Use an up-to-date Chrome, Edge, Firefox or Safari and test it on the actual teaching device. Full activation uses **Web Crypto (PBKDF2/SHA-256 and AES-GCM)** and **DecompressionStream (gzip)**. Trial does not depend on decryption. HTTPS or localhost is recommended.
+The complete Secondary data block is unchanged: **96 lesson packs and 576 question records across 11 subjects**, including all **24 history lessons**. Trial retains **44 lesson packs and 132 question records**, including **8 history samples**. These are stored question records, not a claim that paired contexts contain independent questions.
 
-To run locally, use **START-WINDOWS.bat**, **START-MAC.command** or **START-LINUX.sh**, or run:
+The Complete subject browser groups those packs into **60 topic cards across subjects and years**; Trial has **44 topic cards**. It never displays that full topic collection together on the homepage.
+
+Primary inputs, gateway access logic, access codes, workspace storage keys, teacher editing, printing, lesson queues, results, and educational-use notices are retained. Existing browser teaching data continues to use the existing storage namespace. Year assignments remain teaching suggestions rather than a certified curriculum map.
+
+## Updating your existing website
+
+1. Extract **Wonder-Global-Studio-Subject-Navigation-GitHub.zip**.
+2. Replace the published **index.html** with the new index.html. Keep the existing website address and directory.
+3. Refresh the site, open Secondary, and check one Trial lesson. Then check Secondary Full with your existing code.
+
+The ZIP contains the public website only. Do not upload the private Owner Kit, access-code sheets, unlocked Full exports, or the owner’s inputs/source folders. No new access codes were generated for this update.
+
+The platform has not been deployed from this conversation. The downloadable standalone file is the same combined platform as the package’s index.html.
+
+## Editing this interface later
+
+The private Owner Kit contains a new **navigation-extension/** folder with:
+
+- **navigation.js** — subject, year, topic, activity and tool navigation.
+- **navigation.css** — layout, responsive rules and component styles.
+- **apply_navigation.py** — applies the interface to both Secondary editions while leaving their current JSON data blocks intact.
+- **before-navigation-*.html** — the retained runtime baseline used by that patch.
+- **content-integrity.json** — the data-preservation check.
+
+From the Owner Kit root, after changing navigation.js or navigation.css:
 
 ```sh
-python3 serve.py
+python navigation-extension/apply_navigation.py
+python source/build_platform.py
 ```
 
-Python 3.10 or later is needed only for that local launcher, not for the hosted website. The launcher binds to the local computer, not the public network. Another port can be selected with `python3 serve.py --port 8010`; a different port is a different browser origin.
+The build command reuses existing private codes unless explicitly invoked with a rotation option. Publish only the resulting **site/** contents.
 
-Optional camera play still needs explicit browser permission and Internet access to load its existing hand model. Entering an access code never starts a camera. Moving away from the learning workspace stops active camera streams.
+The patch uses the retained pre-navigation JavaScript baseline. Edit that baseline deliberately when changing the underlying activity engine; do not expect unrelated manual edits to the patched input script to survive reapplying the patch. Current world-data/config/seed JSON in the input documents is retained. Do not rerun the older, one-off History extension as part of an ordinary UI rebuild.
 
-## Scope of access control
+## Testing boundary
 
-The public file has separately salted PBKDF2-derived AES-256-GCM encrypted Full payloads, not plaintext access codes. Codes are generated randomly with 120 bits of random data plus a stage prefix. Each stage’s code is shared and reusable, with no expiry or device count.
+Automated checks cover both editions’ subject/year isolation, topic grouping, activity selection, reference and overview tabs, queues, editor copies, exports, models, responsive layouts, and the existing access-code integration. See the separate test report for exact counts and environment.
 
-This is **not tamper-proof licensing or DRM**. A person who has a valid code can share it, inspect their browser, or copy decrypted content. There is no individual account revocation, one-device enforcement or central usage tracking. Rotating future codes cannot revoke previous files or historical repository copies.
+The managed test browser blocks localhost and file navigation. Storage checks used an explicit in-memory test adapter; activation checks used a Node Web Crypto bridge. Those adapters are not in the public website. Native browser persistence across restarts, live-site activation and physical webcam/audio operation still need checking on your published site.
 
-## Reference documentation
+---
 
-GitHub publishing: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site  
-GitHub Pages limits: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits  
-HTTPS: https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https  
-localStorage: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage  
-Key derivation: https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/deriveKey  
-Authenticated encryption: https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/encrypt
-
-These references explain the platform APIs and hosting setup, not an independent security audit of this app.
+**Created by: Dr. Wayne Vincent Tolomia**  
+For educational purposes only. Not for resale.  
+Improvements, suggestions and custom learning web apps: **waynetolomia@gmail.com**
